@@ -1,0 +1,23 @@
+﻿
+table{
+    margin:10px;
+    padding:10px;
+}
+th{
+    text-align:right;
+    vertical-align:top;
+    padding-right:10px;
+    padding-top:2px;
+}
+td{
+    vertical-align:top;
+    padding-bottom:15px;
+}
+input{
+    color: #424647;
+	font: 18px Tahoma, sans-serif;
+    line-height: 1.5;
+}
+#string_for_shiper{
+    color: #424647;
+}

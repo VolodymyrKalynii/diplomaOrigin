@@ -1,0 +1,78 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Crypto Library</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <script type="text/javascript" src="../jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../Scripts/myscr/animate_menu.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <a href="/"><img src="../images/logo6.png" alt="Crypto Library logo"></a>
+        </header>
+        <nav id="nav">
+            <ul class="top-menu">
+                <li><a href="../Home.html">HOME</a></li>
+                <li><a href="../About_us.html">ABOUT US</a></li>
+                <li><a href="Services.html" class="active">SERVICES</a></li>
+                <li><a href="../Partners.html">PARTNERS</a></li>
+            </ul>
+        </nav>
+        <div id="heading">
+            <h1>SERVICES</h1>
+        </div>
+        <aside>
+            <nav>
+                <ul class="aside-menu">
+                    <li class="active">Шифр Цезаря</li>
+                    <li><a href="/donec/">Шифр</a></li>
+                    <li><a href="/vestibulum/">Шифр</a></li>
+                    <li><a href="/etiam/">Шифр</a></li>
+                    <li><a href="/phasellus/">Шифр</a></li>
+                    <li><a href="/cras/">Шифр</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section>
+            <h1>Шифр Цезаря</h1>
+            <p>Шифр Цезаря — симетричний алгоритм шифрування підстановками. Використовувався римським імператором Юлієм Цезарем для приватного листування.</p>
+            <h3>Принцип дії</h3>
+            <p>Принцип дії полягає в тому, щоб циклічно зсунути алфавіт, а ключ — це кількість літер, на які робиться зсув.</p>
+            <figure>
+                <img src="../images/siphers/chesar/img1.png" width="320" height="135" alt="Шифр Цезаря з зсувом на 3">
+            </figure>
+            <figure style="margin-left:70px;">
+                <img src="../images/siphers/chesar/img2.png" width="200" height="197" alt="">
+            </figure>
+            <h3>Приклад</h3>
+                <p>Припустимо, що, використовуючи шифр Цезаря, з ключем, який дорівнює 3, необхідно зашифрувати словосполучення «ШИФР ЦЕЗАРЯ».</p>
+                <p>Для цього зрушимо алфавіт так, щоб він починався з четвертої букви (Г). Отже, беручи вихідний алфавіт</p>
+                <p>АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ,</p>
+                <p>і зміщуючи всі літери вліво на 3, отримуємо відповідність:</p>
+                <p>А Б В Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я</p>
+                <p>Г Ґ Д Е Є Ж З И І Ї Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я А Б В,</p>
+                <p>де Г=А, Ґ=Б, Д=В, і т. д.</p>
+                <p>Використовуючи цю схему, відкритий текст «ШИФР ЦЕЗАРЯ» перетворюється на «ЮЙЧУ ЩЗЇГУВ». Для того, щоб одержувач повідомлення міг відновити вихідний текст, необхідно повідомити йому, що ключ — 3.</p>
+            <div style="text-align:center;">
+                <a id="Protestyvatu" href="test_siphers/test_chesar.html">Протестувати шифр!</a>
+            </div>          
+        </section>
+    </div>
+    <footer>
+        <div id="footer">
+            <div id="footer-logo">
+                <a href="/"><img src="../images/flogo3.png" alt="Whitesquare logo"></a>
+                <p>Copyright &copy; 2015 Crypto Library.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

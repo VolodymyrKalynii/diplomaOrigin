@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Crypto Library</title>
+    <link rel="stylesheet" href="../../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <link rel="stylesheet" href="../../css/siphers/Chesar/StyleSheetForChesar.css" type="text/css" />
+    <script type="text/javascript" src="../../jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/myscr/animate_menu.js"></script>
+    <script type="text/javascript" src="../../Scripts/myscr/Siphers/Siph_Chesar.js"></script>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <a href="/"><img src="../../images/logo6.png" alt="Crypto Library logo"></a>
+        </header>
+        <nav id="nav">
+            <ul class="top-menu">
+                <li><a href="../../Home.html">HOME</a></li>
+                <li><a href="../../About_us.html">ABOUT US</a></li>
+                <li><a href="Services.html" class="active">SERVICES</a></li>
+                <li><a href="../../Partners.html">PARTNERS</a></li>
+            </ul>
+        </nav>
+        <div id="heading">
+            <h1>SERVICES</h1>
+        </div>
+        <aside>
+            <nav>
+                <ul class="aside-menu">
+                    <li class="active"><a class="active" href="../Sipher.html">Шифр Цезаря</a></li>
+                    <li><a href="/donec/">Шифр</a></li>
+                    <li><a href="/vestibulum/">Шифр</a></li>
+                    <li><a href="/etiam/">Шифр</a></li>
+                    <li><a href="/phasellus/">Шифр</a></li>
+                    <li><a href="/cras/">Шифр</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section>
+            <h1>Шифр Цезаря</h1>
+            <table>
+                <tr>
+                    <th>
+                        <label for="string_for_shiper">Виберіть алфавіт</label>
+                    </th>
+                    <td>
+                        <input type="radio" name="alf" class="rb" value="En">Англійський
+                        <br />
+                        <input type="radio" name="alf" class="rb" value="Ukr">Український
+                        <br />
+                        <input type="radio" name="alf" class="rb" value="Rus">Російський
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="string_for_shiper">Введіть текст для шифрування</label>
+                    </th>
+                    <td>
+                        <input type="text" id="string_for_shiper" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="kilk_zsyvy">Оберіть параметр зсуву</label>
+                    </th>
+                    <td>
+                        <input id="kilk_zsyvy" value="" type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <input type="button" id="zashiphryvaty" value="Зашифрувати" />
+                        <br />
+                        
+                        <label style="color:red;font-weight:bold;visibility:hidden" id="obalph">Виберіть алфавіт!</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Отриманий результат</th>
+                    <td>
+                        <textarea cols="25" rows="5" disabled="disabled" style="resize:none;font-size:medium" id="rez"></textarea>
+                    </td>
+                </tr>
+            </table>
+            
+        </section>
+    </div>
+    <footer>
+        <div id="footer">
+            <div id="footer-logo">
+                <a href="/"><img src="../../images/flogo3.png" alt="Whitesquare logo"></a>
+                <p>Copyright &copy; 2015 Crypto Library.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
